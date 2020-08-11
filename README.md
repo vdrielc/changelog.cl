@@ -1,2 +1,2 @@
-# ChangeLog.CL
-The ChangeLog.CL Project
+# changelog.cl
+The changelog.cl Project
