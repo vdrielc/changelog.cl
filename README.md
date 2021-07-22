@@ -3,11 +3,11 @@ The changelog.cl project
 
 I have finally had a chance to play with this idea. Below is a prototype CLI interface I'm using to explore ideas.
 
-![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/assets/proto-cli.gif)
+![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/blob/master/assets/cl-cli-command-planning.cl.png)
 
 The commands shown in the gif are not representative of the what I aim to implement:
 
-![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/assets/cl-cli-command-planning.cl.png)
+![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/blob/master/assets/cl-cli-command-planning.cl.png)
 
 This is the current design for the commands
 
