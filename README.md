@@ -1,6 +1,32 @@
 # changelog.cl
 The changelog.cl project
 
+I have finally had a chance to play with this idea. Below is a prototype CLI interface I'm using to explore ideas.
+
+![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/assets/proto-cli.gif)
+
+The commands shown in the gif are not representative of the what I aim to implement:
+
+![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/assets/cl-cli-command-planning.cl.png)
+
+This is the current design for the commands
+
+- List
+	- Applications {FILTER}
+	- Versions {APPLICATION_NAME}
+	- Repos {FILTER}
+- Show {APPLICATION_NAME} {FILTER}
+- Repo
+	- Add {REPO_FRIENDLY_NAME} {REPO_URI}
+	- Update {REPO_FRIENDLY_NAME} || {ALL}
+	- Remove {REPO_FRIENDLY_NAME}
+- Help
+	- {COMMAND_NAME}
+- Publish
+	- Unsure of what is required at the moment
+
+-------------------------------------------------------
+
 This project was born in my mind July 2017 when a change to a public API caused failure on multiple projects because we missed a change notification from the API developers.
 
 The issue occured because the registered user for the API was a client and not the development team, the change notification emails go to the registered users and there was, at that time, no way to register anyone else for notifications. Sadly this particular notification ended up in the junk box and was entirely missed until integrations started failing.
@@ -27,3 +53,5 @@ Initial Goals:
 	- Pulled/Rolled back
 - Plugin system for correctly sorting versions based on different schemes
 	- Industries have their own standards for versioning
+
+
