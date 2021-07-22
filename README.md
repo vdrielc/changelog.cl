@@ -27,6 +27,9 @@ This is the current design for the commands
 - Publish
 	- Unsure of what is required at the moment
 
+## Cross Platform
+- The application should be platform independent
+- It should allow for integration into toolchains through piping of input and output
 -------------------------------------------------------
 
 ## Initial Readme
