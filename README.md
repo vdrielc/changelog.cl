@@ -1,6 +1,7 @@
 # changelog.cl
-The changelog.cl project
+The changelog.cl Project
 
+## Progress
 I have finally had a chance to play with this idea. Below is a prototype CLI interface I'm using to explore ideas.
 
 ![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/blob/master/assets/proto-cli.gif)
@@ -9,6 +10,7 @@ The commands shown in the gif are not representative of the what I aim to implem
 
 ![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/blob/master/assets/cl-cli-command-planning.cl.png)
 
+### Commands
 This is the current design for the commands
 
 - List
@@ -27,6 +29,8 @@ This is the current design for the commands
 
 -------------------------------------------------------
 
+## Initial Readme
+
 This project was born in my mind July 2017 when a change to a public API caused failure on multiple projects because we missed a change notification from the API developers.
 
 The issue occured because the registered user for the API was a client and not the development team, the change notification emails go to the registered users and there was, at that time, no way to register anyone else for notifications. Sadly this particular notification ended up in the junk box and was entirely missed until integrations started failing.
@@ -39,7 +43,7 @@ The changelog.cl domain was registered shortly after the original issue, but sad
 
 This serves as a rough initial readme for the project, but changes will be made as progress is made on the concepts offline.
 
-Initial Goals:
+### Initial Goals:
 - Provide tooling for centrally managing and communicating functional changes to users
 	- Central management is self hosted and can be entirely private
 - Optional participation in a public change log	repository
@@ -53,5 +57,12 @@ Initial Goals:
 	- Pulled/Rolled back
 - Plugin system for correctly sorting versions based on different schemes
 	- Industries have their own standards for versioning
+
+-------------------------------------------------------
+
+## Attribution
+[keep-a-changelog](https://github.com/olivierlacan/keep-a-changelog)
+- The file format for this project is based on the work of [keepachangelog.com](https://keepachangelog.com/)
+- The licens can be found here: [MIT License](https://github.com/vdrielc/changelog.cl/blob/master/attributions/keepachangelog.com)
 
 
