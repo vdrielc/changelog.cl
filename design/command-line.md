@@ -37,7 +37,7 @@ com.keepachangelog
 #### Optional Filters
 :TODO:
 
-### Listing application versions
+### Listing Repos
 :> cl List Repos
 
 | Repository           | URL                                     | Last Fetch | Fetch Required |
