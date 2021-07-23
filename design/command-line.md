@@ -5,10 +5,14 @@
 ### Listing available applications
 :> cl List Applications
 
+---------------------------------------
+
 | Application       | Application ID     | Repository          | Last Updated | Latest Version | URL                         |
 |-------------------|--------------------|---------------------|--------------|----------------|-----------------------------|
 | Changelog.cl      | cl.changelog       | public.changelog.cl | 2021-07-01   | 0.0.1          | https://changelog.cl/       |
 | Keep a Change Log | com.keepachangelog | public.changelog.cl | 2017-06-20   | 1.0.0          | https://keepachangelog.com/ |
+
+---------------------------------------
 
 #### Optional Filters
 :TODO:
