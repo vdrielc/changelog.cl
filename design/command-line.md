@@ -16,6 +16,8 @@
 ### Listing application versions
 :> cl List Versions com.keepachangelog
 
+---------------------------------------
+
 Keep A Change Log
 com.keepachangelog
 
@@ -34,22 +36,30 @@ com.keepachangelog
 | 0.0.2   | 2014-07-10   | public.changelog.cl |
 | 0.0.1   | 2014-05-31   | public.changelog.cl |
 
+---------------------------------------
+
 #### Optional Filters
 :TODO:
 
 ### Listing Repos
 :> cl List Repos
 
+---------------------------------------
+
 | Repository           | URL                                     | Last Fetch | Fetch Required |
 |----------------------|-----------------------------------------|------------|----------------|
 | public.changelog.cl  | https://public.changelog.cl/repository/ | 2021-06-04 | Yes            |
 | private.changelog.cl | https://changelogcl.local/repository/   | 2021-07-22 | No             |
+
+---------------------------------------
 
 #### Optional Filters
 :TODO:
 
 ### Listing version information
 :> cl Show com.keepachangelog
+
+---------------------------------------
 
 com.keepachangelog | Keep A Change Log | public.changelog.cl
 
@@ -107,6 +117,7 @@ translation authors keep things up-to-date.
 \#\#\# Removed
 - Section about "changelog" vs "CHANGELOG".
 
+---------------------------------------
 
 #### Output
 Output is unprocessed markdown at the moment, this may change going forward.
