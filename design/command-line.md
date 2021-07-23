@@ -135,7 +135,7 @@ Displays the yanked versions.
 
 Displays the full changelog.
 
-##### Full
+##### Repo
 --repo {REPO NAME} or -r {REPO NAME}
 
 :> cl Show com.keepachangelog -s 0.0.1 -r public.changelog.cl
