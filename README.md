@@ -10,22 +10,13 @@ The commands shown in the gif are not representative of the what I aim to implem
 
 ![Image of Proto-CLI](https://github.com/vdrielc/changelog.cl/blob/master/assets/cl-cli-command-planning.cl.png)
 
-### Commands
-This is the current design for the commands
+### Design Documents
 
-- List
-	- Applications {FILTER}
-	- Versions {APPLICATION_NAME}
-	- Repos {FILTER}
-- Show {APPLICATION_NAME} {FILTER}
-- Repo
-	- Add {REPO_FRIENDLY_NAME} {REPO_URI}
-	- Update {REPO_FRIENDLY_NAME} || {ALL}
-	- Remove {REPO_FRIENDLY_NAME}
-- Help
-	- {COMMAND_NAME}
-- Publish
-	- Unsure of what is required at the moment
+| Documents      |                                                                                       |
+|-----------------------|--------------------------------------------------------------------------------|
+| CLI Commands Document | [Link](https://github.com/vdrielc/changelog.cl/blob/master/design/command-line.md) |
+| CLI Commands Visual   | [Link](https://github.com/vdrielc/changelog.cl/blob/master/design/command-design.pdf) |
+| Repository Document   | :TODO:                                                                         |
 
 ## Cross Platform
 - The application should be platform independent
