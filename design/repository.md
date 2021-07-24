@@ -23,6 +23,8 @@ It will then identify missing or outdated .cl files by looping over the .cl file
 
 Once completed, all other operations for interacting with .cl files will be performed locally until the user requestes another remote fetch.
 
+![Repo Layout Example](https://github.com/vdrielc/changelog.cl/blob/master/assets/repo-example.png)
+
 ## Proposed File Formats
 
 ### [repo_name].cldef
