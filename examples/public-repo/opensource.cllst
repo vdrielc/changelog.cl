@@ -1,0 +1,9 @@
+# Hash, LatestVersion and LastChangedDate are filled in by: npm run build-example
+
+ApplicationID: cl.changelog
+ApplicationName: Changelog.cl
+ApplicationURL: https://changelog.cl/
+clFileURL: cl.changelog.cl
+LastChangedDate: 2026-10-22
+LatestVersion: 0.1.0
+Hash: 022b69cc2c83b4f36052ac83e43f05240fd1ee5f

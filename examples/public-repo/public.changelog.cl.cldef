@@ -1,0 +1,10 @@
+# Example repository definition. Serve this folder over HTTP (npm run serve-example)
+# or add it straight from disk with a file:// URL.
+RepositoryName: public.changelog.cl
+RepositoryDescription: Example public repository for changelog.cl, with changelogs for
+  the changelog.cl tool itself and two fictional products.
+LicenseInformation: CC0-1.0
+ContactEmailAddress: repo@example.com
+RepositoryOwner: changelog.cl example
+cllstFileList: opensource.cllst
+  libraries.cllst

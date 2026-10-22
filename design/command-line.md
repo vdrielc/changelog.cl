@@ -15,7 +15,11 @@
 ---------------------------------------
 
 #### Optional Filters
-:TODO:
+--repo {REPO NAME} or -r {REPO NAME}: only applications in this repository
+
+--search {TEXT}: only applications whose ID or name contains TEXT
+
+--json: JSON output for toolchains
 
 ### Listing application versions
 :> cl List Versions com.keepachangelog
@@ -43,7 +47,11 @@ com.keepachangelog
 ---------------------------------------
 
 #### Optional Filters
-:TODO:
+--repo {REPO NAME} or -r {REPO NAME}: required if the application ID exists in several repositories
+
+--json: JSON output for toolchains
+
+A Status column (Unreleased / Released / Yanked) is shown in addition to the columns above.
 
 ### Listing Repos
 :> cl List Repos
@@ -58,7 +66,9 @@ com.keepachangelog
 ---------------------------------------
 
 #### Optional Filters
-:TODO:
+--json: JSON output for toolchains
+
+Fetch Required is Yes when the repository was never fetched, its local files are missing or changed, or the last fetch is 7 or more days old.
 
 ### Listing version information
 :> cl Show com.keepachangelog
@@ -121,6 +131,11 @@ Displays the yanked versions.
 --full or -f
 
 Displays the full changelog.
+
+##### Quiet
+--quiet or -q
+
+Omits the 'application | name | repository' header line, for piping.
 
 ##### Repo
 --repo {REPO NAME} or -r {REPO NAME}

@@ -1,0 +1,41 @@
+{
+  "name": "changelog.cl",
+  "version": "0.1.0",
+  "description": "Fetch and read functional changelogs from self-hosted changelog.cl repositories.",
+  "keywords": [
+    "changelog",
+    "keepachangelog",
+    "cli",
+    "release-notes"
+  ],
+  "homepage": "https://changelog.cl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdrielc/changelog.cl.git"
+  },
+  "bugs": "https://github.com/vdrielc/changelog.cl/issues",
+  "license": "AGPL-3.0-only",
+  "author": "vdrielc",
+  "type": "module",
+  "bin": {
+    "cl": "bin/cl.js",
+    "changelog-cl": "bin/cl.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build-example": "node scripts/build-example-repo.js",
+    "serve-example": "node scripts/serve-example-repo.js"
+  }
+}

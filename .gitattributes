@@ -1,0 +1,13 @@
+# Use LF in the working tree on every OS.
+* text=auto eol=lf
+
+# Repository files are identified by the SHA1 of their exact bytes, so Git must
+# never rewrite their line endings.
+examples/** -text
+*.cl -text
+*.cllst -text
+*.cldef -text
+
+*.png binary
+*.gif binary
+*.pdf binary

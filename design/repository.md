@@ -27,6 +27,8 @@ Once completed, all other operations for interacting with .cl files will be perf
 
 ## Proposed File Formats
 
+The exact syntax of these files is specified in [file-formats.md](file-formats.md).
+
 ### [repo_name].cldef
 
 The cl Definition (.cldef) file will contain information for the repositry at a URL as specified in the :> cl repo add [repo_friendly_name] [repo_url]
