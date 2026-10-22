@@ -1,0 +1,17 @@
+# Hash, LatestVersion and LastChangedDate are filled in by: npm run build-example
+
+ApplicationID: com.example.widgets
+ApplicationName: Example Widgets
+ApplicationURL: https://widgets.example.com/
+clFileURL: com.example.widgets.cl
+LastChangedDate: 2026-09-14
+LatestVersion: 2.1.0
+Hash: a13a4167a1058f6d4b6b84a71328b193613006c0
+
+ApplicationID: org.example.weather-api
+ApplicationName: Example Weather API
+ApplicationURL: https://weather.example.org/
+clFileURL: org.example.weather-api.cl
+LastChangedDate: 2026-10-01
+LatestVersion: 3.0.0
+Hash: 7e5acd6322fda79b891efc1c3c41cc65c8f86297
