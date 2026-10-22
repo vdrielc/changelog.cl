@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import path from 'node:path';
 import { test } from 'node:test';
 import { pathToFileURL } from 'node:url';
 
@@ -30,7 +31,7 @@ test('definition URL is derived from a directory URL or used as given', () => {
 test('data directory follows CL_HOME and platform conventions', () => {
   assert.match(dataDir({ CL_HOME: '/tmp/x' }), /x$/);
   assert.match(dataDir({ APPDATA: 'C:\\Users\\a\\AppData\\Roaming' }, 'win32'), /changelog\.cl$/);
-  assert.equal(dataDir({ XDG_DATA_HOME: '/data' }, 'linux'), '/data/changelog.cl');
+  assert.equal(dataDir({ XDG_DATA_HOME: '/data' }, 'linux'), path.join('/data', 'changelog.cl'));
 });
 
 test('list applications, versions and repos', async (t) => {
